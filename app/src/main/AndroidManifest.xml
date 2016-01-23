@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.noteapp.rn.extranotes" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/notebook72"
+        android:label="Easy Notepad"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".NotesListView" >
+        </activity>
+        <activity android:name=".NotesEditView2" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="example.noteapp.rn.extranotes.NotesListView" />
+        </activity>
+        <activity android:name=".FolderListView" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

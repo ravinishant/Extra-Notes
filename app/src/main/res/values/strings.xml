@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Extra Notes</string>
+    <string name="title_activity_notes_main_view">NotesMainView</string>
+</resources>

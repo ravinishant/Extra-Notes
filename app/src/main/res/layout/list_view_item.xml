@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="160px"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:id="@+id/placeholder_icon"
+        android:layout_gravity="center"
+        android:layout_width="120px"
+        android:layout_height="120px"
+        android:layout_marginLeft="5px"
+        android:layout_marginRight="20px"
+        android:src="@drawable/notebook71"/>
+
+    <TextView
+        android:id="@+id/title_name"
+        android:text="title Name"
+        android:textSize="10pt"
+        android:paddingLeft="10dip"
+        android:layout_weight="0.5"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"/>
+
+    <ImageView
+        android:id="@+id/list_add_button"
+        android:layout_gravity="center"
+        android:layout_marginRight="10px"
+        android:paddingRight="10dip"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:src="@drawable/delete102"/>
+
+</LinearLayout>
